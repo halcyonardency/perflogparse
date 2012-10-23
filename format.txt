@@ -1,0 +1,10 @@
+perflog apache:	%h %l %u %t \"%m %V%U%q %H\" %>s %O \"%{Referer}i\" \"%{User-agent}i\" %k \"%R\" \"%f\" %D
+perflog Regex:	/^\[([^:]+):(\d+:\d+:\d+) ([^\]]+)\] \"(\S+) (.*?) (\S+)\" (\S+) (\S+) (\".*?\") (\".*?\") (\S+) (\".*?\") (\".*?\") (\S+)/
+
+Examples:
+
+1.2.3.4 - - [18/Jan/1980:11:48:02 -0700] "GET www.example.com/file.php HTTP/1.1" 200 3813 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 0 "x-httpd-php5" "/var/www/html/file.php" 27315
+
+1.2.3.4 - - [18/Jan/1980:11:48:02 -0700] "GET www.examplequotes.com/wtf.php?val=\"foo bar\" HTTP/1.1" 200 3813 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 0 "x-httpd-php5" "/var/www/html/file.php" 27315
+
+1.2.3.4 - - [18/Jan/1980:11:48:02 -0700] "- www.exampletimeout.com -" 408 3813 "-" "-"
