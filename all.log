@@ -4,6 +4,6 @@
 80.70.160.150 - - [18/Jan/1980:00:59:37 -0700] "GET examplewww.com/xyzzy/<a href=http://'http://www.foobar.com/huh-what-okay-sure_bar/v/2vs6dy6sb.htm' target=_blank>[IMG]http://xyz.foobar.com/thumbpic/21.149.28090889.D6u0/blah.120x1.jpg?r='http:/www.foobar.com/bl_ah/v/2ssssb.htm' target=_blank>[IMG]http:/foobar.com/thumbpic/picture.jpg HTTP/1.1" 302 259 "http://examplewww.com/xyzzy/showthread.php?83271-fo-baz-bar-" "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4" 0 "-" "/var/chroot/home/content/01/123401/html/xyzzy/<a href=http:.php" 8504
 7.8.111.9 - - [19/Jan/1980:12:28:06 -0700] "- www.website.com- -" 408 - "-" "-" 0 "-" "-" 31
 5.4.3.1 - - [19/Jan/1980:10:32:47 -0700] "GET example2.com/blah/aaa /\" HTTP/1.1 \"/\" \"\"\",,,    /\"' HTTP/1.1" 404 371 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1" 0 "-" "/var/www/html/aaa " 155
-10.20.30.40 - - [12/Aug/1980:05:53:26 -0700] "Nokia-Ipaddress: 1.2.3.4" 400 300 "-" "-"
+10.20.30.40 - - [12/Aug/1980:05:53:26 -0700] "Nokia-Ipaddress: 1.2.3.4" 400 300 "-" "-" 0 "-" "-" 9
 99.88.177.66 - - [31/Jul/1980:12:35:41 -0700] "Secure * Secure-HTTP/1.4" 501 298 "-" "-"
 1.174.124.1 - - [27/Aug/1980:10:30:52 -0700] "GET /" 400 603 "-" "-"
